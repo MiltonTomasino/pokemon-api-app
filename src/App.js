@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './css/App.css';
 import PokemonSearch from './components/search';
+import Game from './components/game';
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <h1>Pokemon API Testing</h1>
       </header>
-      <PokemonSearch />
+      {/* <PokemonSearch /> */}
+      <Game />
     </div>
   );
 }

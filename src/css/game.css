@@ -1,0 +1,16 @@
+.game-container {
+    border: 2px solid white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-list {
+    border: 2px solid green;
+    width: 70%;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
